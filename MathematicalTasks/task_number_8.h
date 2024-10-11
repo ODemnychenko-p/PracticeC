@@ -22,8 +22,7 @@ void print_narcissistics()
     }
 }
 
-int main()
+static void task_number_8()
 {
     print_narcissistics();
-    return 0;
 }

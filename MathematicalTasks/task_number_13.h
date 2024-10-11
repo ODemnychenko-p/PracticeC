@@ -20,7 +20,7 @@ template <typename E = std::mt19937, typename D = std::uniform_real_distribution
        }
        return 4.0 * hit / samples;
 }
-int main()
+static void task_number_13()
 {
     std::random_device rd;
     auto seed_data = std::array<int, std::mt19937::state_size> {};
@@ -32,5 +32,4 @@ int main()
     {
         std::cout << compute_pi(eng, dist) << std::endl;
     }
-    return 0;
 }

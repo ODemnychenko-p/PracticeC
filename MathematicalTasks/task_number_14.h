@@ -23,7 +23,8 @@ bool validate_isbn_10(std::string_view isbn)
     }
     return valid;
 }
-int main()
+
+static void task_number_14()
 {
-    return 0;
+
 }

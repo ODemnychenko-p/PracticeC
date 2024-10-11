@@ -34,7 +34,7 @@ std::string to_roman(unsigned int value)
             }
             return result;
 }
-int main()
+static void task_number_11()
 {
     for(int i = 1; i<= 100; ++i)
     {
@@ -43,9 +43,5 @@ int main()
         std::cout << "number: ";
         std::cin >> number;;
         std::cout << to_roman(number) << std::endl;
-
-
-
     }
-    return 0;
 }

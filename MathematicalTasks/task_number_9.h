@@ -27,7 +27,8 @@ std::vector<unsigned long long> prime_factors(unsigned long long n)
     }
     return factors;
 }
-int main()
+
+static void task_number_9()
 {
     unsigned long long number = 0;
     std::cout << "number:";
@@ -36,5 +37,4 @@ int main()
     auto factors = prime_factors(number);
     std::copy(std::begin(factors), std::end(factors),
               std::ostream_iterator<unsigned long long>(std::cout, " "));
-    return 0;
 }

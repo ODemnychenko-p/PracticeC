@@ -33,7 +33,7 @@ std::pair<unsigned long long, long> longest_collatz
     return std::make_pair(number, length);
 }
 
-int main()
+static void task_number_12()
 {
    auto t = longest_collatz(1000).first;
    auto t2 = longest_collatz(1000).second;

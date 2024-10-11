@@ -33,12 +33,10 @@ void print_amicables(int const limit)
     }
 }
 
-int main()
+static void task_number_7()
 {
     int limit = 0;
     std::cin >> limit;
 
     print_amicables(limit);
-
-    return 0;
 }

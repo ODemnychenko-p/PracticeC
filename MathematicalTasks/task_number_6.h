@@ -30,11 +30,10 @@ void print_abundant(int const limit)
     }
 }
 
-int main()
+static void task_number_6()
 {
     int limit = 0;
     std::cout << "Upper limit: ";
     std::cin >> limit;
     print_abundant(limit);
-    return 0;
 }

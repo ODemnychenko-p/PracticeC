@@ -24,8 +24,7 @@ void CalculateSum()
     }
 }
 
-int main()
+static void task_number_1()
 {
     CalculateSum();
-    return 0;
 }

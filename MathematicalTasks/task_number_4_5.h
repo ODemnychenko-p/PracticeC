@@ -56,9 +56,8 @@ void task_5()
     }
 }
 
-int main()
+static void task_number_4_5()
 {
    // task_4();
    task_5();
-   return 0;
 }

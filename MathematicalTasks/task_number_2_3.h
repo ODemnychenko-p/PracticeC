@@ -14,8 +14,7 @@ int lcm(int const a, int const b)
     int h = gcd(a, b);
     return h ? (a * (b / h)) : 0 ;
 }
-int main()
+static void task_number_2_3()
 {
     std::cout << lcm(3, 20) << std::endl;
-    return 0;
 }

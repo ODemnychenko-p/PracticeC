@@ -26,7 +26,7 @@ std::string to_binary(unsigned int value, int const digits)
     return std::bitset<32>(value).to_string().substr(32-digits, digits);
 }
 
-int main()
+static void task_number_10()
 {
     std::cout << "Number\tBinary\tGray\tDecoded\n";
     std::cout << "------\t------\t----\t-------\n";

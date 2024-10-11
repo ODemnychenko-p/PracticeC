@@ -1,3 +1,5 @@
+#include <functional>
+
 //
 // Created by Oleksandr Demnychenko on 31.08.2024.
 //
