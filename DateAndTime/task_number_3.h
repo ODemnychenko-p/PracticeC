@@ -14,8 +14,8 @@ unsigned int week_day (int const y, unsigned int const m, unsigned int const d)
     }
 
     auto const dt = std::chrono::year_month_day{year{y}, month{m}, day{d}};
-    auto const tiso =std::chrono::year_month_weekday{dt};
-    return static_cast<unsigned int>(tiso.weekday());
+    auto const tiso = std::chrono::year_month_weekday{dt};
+    return tiso.weekday().iso_encoding();
 }
 
 static void task_number_3()

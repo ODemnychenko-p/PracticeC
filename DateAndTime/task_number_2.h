@@ -3,6 +3,7 @@
 //
 
 #include <chrono>
+#include "date/date.h"
 using namespace std::chrono;
 inline int number_of_days(int const y1, unsigned int const m1, unsigned int const d1,
                           int const y2, unsigned int const m2, unsigned int const d2)
@@ -20,5 +21,6 @@ static void task_number_2()
     auto diff1 = number_of_days(2016, 9, 23, 2017, 5, 15);
 
     using namespace std::chrono_literals;
-    auto diff2 = number_of_days(std::chrono::year(2016)/sep/23, std::chrono::day(15)/may/2017);
+    auto diff2 = number_of_days(std::chrono::year(2016)/std::chrono::month(9)/std::chrono::day(23),
+                                std::chrono::day(15)/std::chrono::month(5)/std::chrono::year(2017));
 }
