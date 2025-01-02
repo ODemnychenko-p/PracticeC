@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<movies>
+	<movie title="The Matrix" year="1999" length="196">
+		<directors />
+		<writers />
+	</movie>
+	<cast>
+		<role star="Keanu Reeves" name="Neo" />
+		<role star="Laurence Fishburne" name="Morpheus" />
+		<role star="Carrie-Anne Moss" name="Trinity" />
+		<role star="Hugo Weaving" name="Agent Smith" />
+		<role star="Lana Wachowski" name="Lilly Wachowski" />
+		<role star="Lana Wachowski" name="Lilly Wachowski" />
+	</cast>
+	<movie title="Forest Gump" year="1994" length="202">
+		<directors>
+			<director name="Robert Zemeckis" />
+		</directors>
+		<writers>
+			<writer name="Winston Groom" />
+			<writer name="Eric Roth" />
+		</writers>
+	</movie>
+	<cast>
+		<role star="Tom Hanks" name="Forrest Gump" />
+		<role star="Sally Field" name="Mrs. Gump" />
+		<role star="Robin Wright" name="Jenny Curran" />
+		<role star="Mykelti Wiliamson" name="Bubba Blue" />
+	</cast>
+</movies>
